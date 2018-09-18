@@ -1,0 +1,6 @@
+* A small utility to synchronize org-contacts with google-contacts
+** DONE Minimal add of contacts
++ only one phone number and e-mail per contact
+** TODO Deletion
+** TODO Clean the tests
+i.e. clean data.org and operate on a copy of test1.org

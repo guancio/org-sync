@@ -22,6 +22,8 @@
 
 (find-file-noselect org-sync-data)
 
-(os-add-g "test-org-5" "1234567" "ciao@gmail.com")
-(os-sync)
+(setq main-group-id (os-get-g-main-group))
+
+(os-add-g "test-org-5" "1234567" "ciao@gmail.com" main-group-id)
+(os-sync main-group-id)
 
